@@ -98,6 +98,53 @@
             //object obj2 = 20;
             //num = (int)obj2; // UnBoxing from object to int --Expicit Casting
             #endregion
+            #region Nullable Type
+            //object obj = null; // Null Reference
+            //string name = null; // Null Reference
+            ////int x = null;//InValid Operation Exception
+            ////Reference type can be null but value type cannot be null
+            ////Nullable type allow value type to be null\
+            //int? x = null; // Nullable type -- Valid
+            #region Casting between Nullable Type and Value Type
+            //int x = 10;
+            //int? y = 20;
+            ////x = y;//InValid 
+            /*******************/
+            ////x = (int)y; //Casting Valid 
+            //if (y != null)
+            //    x = (int)y;
+            //else
+            //    x = default;
+
+            //Console.WriteLine(x); // Output: 20
+            /********************/
+            //y = null;
+            //if (y is not null)
+            //    x = (int)y;
+            //else
+            //    x = default;
+            //Console.WriteLine(x); // Output: 0 beause y is null and default value of int is 0
+            /********************/
+            //x = y is not null ? (int)y : default; // Using Ternary Operator
+            //Console.WriteLine(x);
+            //int num = 10;
+            //int? num2 = 20;
+            //num = num2  is not null ? (int)num2 : default; // Using Ternary Operator
+            //Console.WriteLine(num);
+            /**Null-Coalescing Operator**/
+            //x = y ?? default; // If y is not null, assign its value to x, otherwise assign default value of int
+            //Console.WriteLine(x);
+            //***********//
+            //if (y.HasValue)
+            //    x = (int)y;
+            //else 
+            //    x = default;
+            //Console.WriteLine(x);
+
+
+
+            #endregion
+            #endregion
 
         }
     }
