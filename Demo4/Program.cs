@@ -1,7 +1,23 @@
 ﻿namespace Demo4
 {
+    //Class - struct - interface - enum 
+    // enum can not contain methods
     internal class Program
     {
+        #region Function [Print Shape]
+            
+        //static void PrintShape(string Shape = "***/****" , int counter) // InValid -- default must be at the end of the parameter list 
+        //{
+        //    for(int i = 0; i < counter; i++)
+        //        Console.WriteLine(Shape);
+        //}
+       
+            static void PrintShape(  int counter ,string Shape = "***/****") // Valid -- default must be at the end of the parameter list 
+        {
+            for(int i = 0; i < counter; i++)
+                Console.WriteLine(Shape);
+        }
+        #endregion
         static void Main(string[] args)
         {
             #region jugged Array
@@ -156,6 +172,24 @@
             #region Null Forgeviness operators
             //Skip warning
             string  name = null!;
+            #endregion
+            #region Function 1 (Print Shape)
+            //PrintShape("\\*\\");// \*\
+            //PrintShape();//print default shape = ***/****
+            //PrintShape(9, "-_-");
+            //PrintShape("-_-", 9);//InValid Arguments -- The first argument should be an integer and the second argument should be a string
+            //PrintShape(Shape: "-_-_", counter: 10);//Valid Arguments -- passing by name
+            //PrintShape(6 , " \/*"); //InValid 
+            //PrintShape(6, "\\/*");//Valid
+            //PrintShape(6, @"\/*"); //Valid
+
+            #region \ @
+            //Console.Write("Abdallah \n Sayed");
+            //Console.Write("Abdallah \t Sayed");
+            //Console.Write("Abdallah \\ Sayed");
+            //Console.Write(@"Abdallah \ Sayed");
+            #endregion
+
             #endregion
 
         }
