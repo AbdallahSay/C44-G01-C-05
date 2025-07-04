@@ -73,7 +73,7 @@ namespace Demo4
 
         //        for (int i = 0; i < arr.Length; i++)
         //            sum += arr[i];
-                
+
 
         //    }
         //    return sum;
@@ -89,10 +89,18 @@ namespace Demo4
 
         //        for (int i = 0; i < arr.Length; i++)
         //            sum += arr[i];
-                
+
 
         //    }
         //    return sum;
+
+        //}
+        #endregion
+        #region SumMultiplay
+        //static void SumMultiplay(int x , int y , out int Sum , out int Multiplay)
+        //{
+        //    Sum = x + y;
+        //    Multiplay = x * y;
 
         //}
         #endregion
@@ -308,7 +316,14 @@ namespace Demo4
             //Console.WriteLine(result);// 600
             //Console.WriteLine(numbers[0]);//100
             #endregion
+            #region Print SumMultiplay
+            //int a = 10, b = 20;
+            //int sum, multiplay;
+            //SumMultiplay(a, b, out sum, out multiplay);
+            //Console.WriteLine(sum);
+            //Console.WriteLine(multiplay);
 
+            #endregion
         }
     }
 }
