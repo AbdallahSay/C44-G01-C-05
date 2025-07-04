@@ -153,6 +153,10 @@
             //Console.WriteLine(numbers?.Length?? 0); //Return 0 if numbers is null --Coalesce Operator
             //Console.WriteLine(numbers?.Length?? default); //Return default value if numbers is null --Coalesce Operator
             #endregion
+            #region Null Forgeviness operators
+            //Skip warning
+            string  name = null!;
+            #endregion
 
         }
     }
