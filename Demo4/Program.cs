@@ -57,10 +57,44 @@ namespace Demo4
         //        sum += arr[i];
         //    return sum;
         //}
-       
-            
-       
-            
+
+
+
+
+        #endregion
+        #region SumOf Array Change the Reference
+        //static int SumArray(ref int[] arr) // Passing by reference
+        //{
+        //    int sum = 0;
+        //    if (arr is not null)
+        //    {
+
+        //         arr = new int[3] { 100, 200, 300 };//Chage the reference of arr to a new array 
+
+        //        for (int i = 0; i < arr.Length; i++)
+        //            sum += arr[i];
+                
+
+        //    }
+        //    return sum;
+
+        //}
+        //static int SumArray(int[] arr) // Passing by Value
+        //{
+        //    int sum = 0;
+        //    if (arr is not null)
+        //    {
+
+        //         arr = new int[3] { 100, 200, 300 };//Chage the reference of arr to a new array 
+
+        //        for (int i = 0; i < arr.Length; i++)
+        //            sum += arr[i];
+                
+
+        //    }
+        //    return sum;
+
+        //}
         #endregion
         static void Main(string[] args)
         {
@@ -261,6 +295,18 @@ namespace Demo4
             //int[] numbers = { 1, 2, 3 };
             //int result = SumArray(ref numbers);
             //Console.WriteLine(result);
+            #endregion
+            #region Print Change SumArray
+            //Passing By Value
+            //int[] numbers = { 1, 2, 3 };
+            //int result = SumArray(numbers);
+            //Console.WriteLine(result); // 600
+            //Console.WriteLine(numbers[0]); // 1
+            //Passing By ref
+            //int[] numbers = { 1, 2, 3 };
+            //int result = SumArray(ref numbers);
+            //Console.WriteLine(result);// 600
+            //Console.WriteLine(numbers[0]);//100
             #endregion
 
         }
