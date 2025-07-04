@@ -5,18 +5,38 @@
     internal class Program
     {
         #region Function [Print Shape]
-            
+
         //static void PrintShape(string Shape = "***/****" , int counter) // InValid -- default must be at the end of the parameter list 
         //{
         //    for(int i = 0; i < counter; i++)
         //        Console.WriteLine(Shape);
         //}
-       
-            static void PrintShape(  int counter ,string Shape = "***/****") // Valid -- default must be at the end of the parameter list 
-        {
-            for(int i = 0; i < counter; i++)
-                Console.WriteLine(Shape);
-        }
+
+        //    static void PrintShape(  int counter ,string Shape = "***/****") // Valid -- default must be at the end of the parameter list 
+        //{
+        //    for(int i = 0; i < counter; i++)
+        //        Console.WriteLine(Shape);
+        //}
+        #endregion
+        #region Swap
+        //static void Swap(int x , int y)//Passing by value
+        //{
+        //    int temp;
+        //    temp = x;
+        //    x = y;
+        //    y = temp;
+
+        //}
+        //static void Swap(ref int x , ref int y)//Passing by Reference 
+        //{
+        //    int temp;
+        //    temp = x;
+        //    x = y;
+        //    y = temp;
+
+        //}
+
+
         #endregion
         static void Main(string[] args)
         {
@@ -189,6 +209,23 @@
             //Console.Write("Abdallah \\ Sayed");
             //Console.Write(@"Abdallah \ Sayed");
             #endregion
+
+            #endregion
+            #region Print Swap
+            //Passing by value --Send copy of the value
+            //int a = 10, b = 20;
+            //Console.WriteLine($"a before Swap {a}");
+            //Console.WriteLine($"b before Swap {b}");
+            //Swap(a, b);
+            //Console.WriteLine($"a after Swap {a}");
+            //Console.WriteLine($"b after Swap {b}");
+            //Passing by ref -- send variable itself
+            //int a = 10, b = 20;
+            //Console.WriteLine($"a before Swap {a}");
+            //Console.WriteLine($"b before Swap {b}");
+            //Swap(ref a,ref b);
+            //Console.WriteLine($"a after Swap {a}");
+            //Console.WriteLine($"b after Swap {b}");
 
             #endregion
 
