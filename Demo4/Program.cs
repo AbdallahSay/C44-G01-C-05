@@ -1,4 +1,6 @@
-﻿namespace Demo4
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace Demo4
 {
     //Class - struct - interface - enum 
     // enum can not contain methods
@@ -37,6 +39,28 @@
         //}
 
 
+        #endregion
+        #region SumOfArray
+        //static int SumArray(int[] arr) // Passing by Value
+        //{
+        //    arr[0] = 100;
+        //    int sum = 0;
+        //    for(int i = 0; i < arr.Length; i++)
+        //        sum += arr[i];
+        //    return sum;
+        //}
+        //static int SumArray(ref int[] arr) //Passing by Reference
+        //{
+        //    arr[0] = 100;
+        //    int sum = 0;
+        //    for(int i = 0; i < arr.Length; i++)
+        //        sum += arr[i];
+        //    return sum;
+        //}
+       
+            
+       
+            
         #endregion
         static void Main(string[] args)
         {
@@ -227,6 +251,16 @@
             //Console.WriteLine($"a after Swap {a}");
             //Console.WriteLine($"b after Swap {b}");
 
+            #endregion
+            #region Print SumArray
+            //Passing By Value
+            //int[] numbers = { 1, 2, 3 };
+            //int result = SumArray(numbers);
+            //Console.WriteLine(result); // 105
+            //Passing By ref
+            //int[] numbers = { 1, 2, 3 };
+            //int result = SumArray(ref numbers);
+            //Console.WriteLine(result);
             #endregion
 
         }
