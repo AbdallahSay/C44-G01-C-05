@@ -145,6 +145,14 @@
 
             #endregion
             #endregion
+            #region Null Propagation operator (?)
+            //int[]? numbers = { 10, 21, 19 }; 
+            //numbers = null; // Assigning null to the array
+            ////Console.WriteLine(numbers.Length); NullReferenceException
+            ////Console.WriteLine(numbers?.Length); //Handel null reference exception 
+            //Console.WriteLine(numbers?.Length?? 0); //Return 0 if numbers is null --Coalesce Operator
+            //Console.WriteLine(numbers?.Length?? default); //Return default value if numbers is null --Coalesce Operator
+            #endregion
 
         }
     }
