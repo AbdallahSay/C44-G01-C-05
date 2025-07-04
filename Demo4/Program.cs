@@ -104,6 +104,21 @@ namespace Demo4
 
         //}
         #endregion
+        #region SumArray [params]
+        //static int sumArray( params int[] arr)
+        //{
+        //    int sum = 0;
+        //    if(arr is not null)
+        //    {
+        //        for (int i = 0; i < arr.Length; i++)
+
+        //            sum += arr[i];
+
+
+        //    }
+        //    return sum;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region jugged Array
@@ -322,6 +337,12 @@ namespace Demo4
             //SumMultiplay(a, b, out sum, out multiplay);
             //Console.WriteLine(sum);
             //Console.WriteLine(multiplay);
+
+            #endregion
+            #region Function [params]numbers
+            //int [] numbers = { 1, 2, 3};
+            //int result = sumArray(10 , 20 , 30);
+            //Console.WriteLine(result);
 
             #endregion
         }
