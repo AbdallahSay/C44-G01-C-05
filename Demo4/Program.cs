@@ -89,6 +89,16 @@
 
 
             #endregion
+            #region Boxing - UnBoxing
+            //Boxing : Casting a value type to Reference type (Implicit Casting -- Safe)
+            //UnBoxing : Casing Reference to Value Type (Explicit Casing -- Unsafe)
+            //object obj = 10; // Boxing from int to object 
+            //obj = 20; // Boxing 
+            //int num = 10;
+            //object obj2 = 20;
+            //num = (int)obj2; // UnBoxing from object to int --Expicit Casting
+            #endregion
+
         }
     }
 }
