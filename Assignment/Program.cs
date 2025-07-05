@@ -95,6 +95,16 @@ namespace Assignment
 
         //}
         #endregion
+        #region 7-iterative function
+        static int Factorial(int num)
+        {
+            int result = 1;
+            if (num > 0)
+                for(int i = 2; i < num; i++)
+                    result *= i;
+            return result;
+        }
+        #endregion
         static void Main(string[] args)
         {
             #region Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -161,6 +171,11 @@ namespace Assignment
             //MinMaxArray(numbers, ref min, ref max);
             //Console.WriteLine($"Min Number = {min}");
             //Console.WriteLine($"Max Number {max}");
+            #endregion
+            #region iterative function
+            //int number = 5;
+            //int result = Factorial(number);
+            //Console.WriteLine(result);
             #endregion
         }
     }
