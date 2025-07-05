@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
 {
@@ -49,6 +50,19 @@ namespace Assignment
         //    sub = x - y;
         //}
         #endregion
+        #region 4-calculate the sum of the individual digits of a given number
+        //static int SumOfDigits(int number)
+        //{
+        //    int sum = 0;
+        //    while (number > 0)
+        //    {
+        //        sum += number % 10; // Add the last digit to sum
+        //        number /= 10; // Remove the last digit
+        //    }
+        //    return sum;
+        //}
+
+        #endregion
         static void Main(string[] args)
         {
             #region Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -97,6 +111,11 @@ namespace Assignment
             //Console.WriteLine("Substraction ="+sub);
 
 
+
+            #endregion
+            #region Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
+
+            //Console.WriteLine("Sum Of digite for given number "+SumOfDigits(25));
 
             #endregion
         }
