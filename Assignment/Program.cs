@@ -42,6 +42,13 @@ namespace Assignment
         //    return result;
         //}
         #endregion
+        #region 3- Passing by out
+        //static void summationAndSubtraction(int x ,int y , out int sum , out int sub)
+        //{
+        //    sum = x + y;
+        //    sub = x - y;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -82,6 +89,12 @@ namespace Assignment
             //numbers[0] = 10;
             //Console.WriteLine(result); // 24 This change not will affect the original array
 
+            #endregion
+            #region Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
+            //int x = 10, y = 5;
+            //summationAndSubtraction(x, y, out int sum, out int sub);
+            //Console.WriteLine("Summation = "+sum);
+            //Console.WriteLine("Substraction ="+sub);
 
 
 
