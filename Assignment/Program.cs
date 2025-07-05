@@ -63,6 +63,19 @@ namespace Assignment
         //}
 
         #endregion
+        #region 5- isPrime
+        //static bool IsPrime(int number)
+        //{
+        //  if(number <= 0)
+        //        return false;
+        //    for (int i = 2; i < Math.Sqrt(number); i++){
+        //        if (number % i == 0)
+        //            return false;
+        //    }
+        //    return true;
+        //}
+
+        #endregion
         static void Main(string[] args)
         {
             #region Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -117,6 +130,11 @@ namespace Assignment
 
             //Console.WriteLine("Sum Of digite for given number "+SumOfDigits(25));
 
+            #endregion
+            #region - Create a function named "IsPrime", which receives an integer number and returns true if it is prime, or false if it is not: 
+            //int number = 29;
+            //Console.WriteLine($"{number} is prime ? "+IsPrime(number)); 
+            
             #endregion
         }
     }
