@@ -76,6 +76,25 @@ namespace Assignment
         //}
 
         #endregion
+        #region 6-MinMax Array
+        //static void MinMaxArray(int[] arr, ref int min, ref int max)
+        //{
+        //    min = arr[0];
+        //    max = arr[0];
+        //    if (arr is not null | arr.Length > 0)
+        //    {
+        //        foreach(int number in arr)
+        //        {
+        //            if (number < min)
+        //                min = number;
+        //            if (number > max)
+        //                max = number;
+        //        }
+
+        //    }
+
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -134,7 +153,14 @@ namespace Assignment
             #region - Create a function named "IsPrime", which receives an integer number and returns true if it is prime, or false if it is not: 
             //int number = 29;
             //Console.WriteLine($"{number} is prime ? "+IsPrime(number)); 
-            
+
+            #endregion
+            #region  Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //int min = 0, max = 0;
+            //MinMaxArray(numbers, ref min, ref max);
+            //Console.WriteLine($"Min Number = {min}");
+            //Console.WriteLine($"Max Number {max}");
             #endregion
         }
     }
