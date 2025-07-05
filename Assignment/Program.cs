@@ -1,4 +1,6 @@
-﻿using System.ComponentModel;
+﻿using System.Buffers.Text;
+using System.ComponentModel;
+using System.Diagnostics.Metrics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
@@ -105,6 +107,13 @@ namespace Assignment
             return result;
         }
         #endregion
+        #region 8- Change Char
+        //static string changeChar(string name , string newName)
+        //{
+        //    string replace = newName.Replace(name[0], newName[0]);
+        //    return replace;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -176,6 +185,11 @@ namespace Assignment
             //int number = 5;
             //int result = Factorial(number);
             //Console.WriteLine(result);
+            #endregion
+            #region Create a function named "ChangeChar" to modify a letter in a certain  position(0 based) of a string, replacing it with a different letter
+            //string replace = changeChar("ahmed", "Ahmed");
+            //Console.WriteLine(replace);
+            
             #endregion
         }
     }
